@@ -13,4 +13,19 @@ The dataset for this assignment contains daily records of air quality data colle
 - City, Date 
 - Pollutants: PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3 
 - Volatile Organic Compounds (VOCs): Benzene, Toluene, Xylene 
-- Air Quality Index (AQI) and AQI_Bucket 
+- Air Quality Index (AQI) and AQI_Bucket
+
+## Requirements
+the following must be present in your choosen environment for the IPYNB file to work.
+```
+!pip install "vegafusion[embed]>=1.5.0"
+!pip install "vl-convert-python>=1.6.0"
+!pip install streamlit
+
+import pandas as pd
+import numpy as np
+import altair as alt
+alt.renderers.enable('default')
+alt.data_transformers.enable('vegafusion')
+```
+
