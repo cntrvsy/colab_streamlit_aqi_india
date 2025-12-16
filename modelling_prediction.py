@@ -3,7 +3,7 @@ import pandas as pd
 from utils import load_data
 
 def app():
-    st.title("🤖 Modelling and Prediction")
+    st.title("Modelling and Prediction")
 
     df = load_data()
 

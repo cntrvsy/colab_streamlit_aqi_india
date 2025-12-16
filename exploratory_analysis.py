@@ -3,7 +3,7 @@ import plotly.express as px
 from utils import load_data
 
 def app():
-    st.title("📈 Exploratory Data Analysis")
+    st.title("Exploratory Data Analysis")
 
     df = load_data()
 

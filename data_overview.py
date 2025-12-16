@@ -2,7 +2,7 @@ import streamlit as st
 from utils import load_data
 
 def app():
-    st.title("📊 Data Overview")
+    st.title(" Data Overview")
 
     df = load_data()
 
