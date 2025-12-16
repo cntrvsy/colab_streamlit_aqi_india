@@ -16,6 +16,6 @@ app = MultiApp()
 app.add_app(" Data Overview", data_overview.app)
 app.add_app("Exploratory Data Analysis", exploratory_analysis.app)
 app.add_app("Modelling & Prediction", modelling_prediction.app)
-app.add_app("🧠Conclusions", conclusions.app)
+app.add_app("Conclusions", conclusions.app)
 
 app.run()
