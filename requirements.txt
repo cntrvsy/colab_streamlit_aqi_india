@@ -1,4 +1,8 @@
-streamlit
 pandas
-plotly
 numpy
+streamlit
+altair
+plotly
+scikit-learn
+vegafusion-python
+vl-convert-python
