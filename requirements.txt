@@ -3,7 +3,7 @@ numpy
 streamlit
 altair
 plotly
-scikit-learn==1.5.2
-joblib==1.4.2
-vegafusion==1.6.9
-vl-convert-python==0.3.0
+scikit-learn
+joblib
+vegafusion
+vl-convert-python
