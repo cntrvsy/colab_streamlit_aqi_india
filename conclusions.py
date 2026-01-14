@@ -1,7 +1,7 @@
 import streamlit as st
 
 def app():
-    st.title("🧠 Conclusions")
+    st.title("Conclusions")
 
     st.markdown("""
     ### Summary
@@ -15,4 +15,10 @@ def app():
     - Deploy dashboard publicly
     """)
 
-    st.info("This dashboard reflects an end-to-end analytical workflow.")
+    st.subheader("Recommendations")
+    st.markdown("""
+    - Targeted City Interventions: Delhi, Gurugram, Patna, and Lucknow need urgent action—stricter emission controls, awareness drives, and cleaner energy adoption.
+    - Focus on PM2.5 & CO: These two pollutants most strongly influence AQI; reducing their sources should be the top priority.
+    - Seasonal Strategies: AQI spikes in winter and spring call for tighter industrial/agricultural controls and timely health advisories.
+    - Holistic Particulate Control: Since PM2.5 and PM10 are closely linked, solutions must address both together for maximum impact
+    """)
