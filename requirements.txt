@@ -1,7 +1,7 @@
 pandas
 numpy
 streamlit
-altair
+altair<5
 plotly
 scikit-learn
 joblib

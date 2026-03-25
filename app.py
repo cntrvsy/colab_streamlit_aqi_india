@@ -1,10 +1,7 @@
 import streamlit as st
-from multiapp import MultiApp
+from src.multiapp import MultiApp
 
-import data_overview
-import exploratory_analysis
-import modelling_prediction
-import conclusions
+from src.pages import data_overview, exploratory_analysis, modelling_prediction, conclusions
 
 st.set_page_config(
     page_title="Air Quality Dashboard",
