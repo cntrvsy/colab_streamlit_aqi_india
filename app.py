@@ -1,18 +1,26 @@
 import streamlit as st
-from src.multiapp import MultiApp
-
-from src.pages import data_overview, exploratory_analysis, modelling_prediction, conclusions
 
 st.set_page_config(
-    page_title="Air Quality Dashboard",
+    page_title="Air Quality Dashboard - India",
+    page_icon="🇮🇳",
     layout="wide"
 )
 
-app = MultiApp()
+st.title("🇮🇳 Air Quality Analysis & Prediction - India")
 
-app.add_app(" Data Overview", data_overview.app)
-app.add_app("Exploratory Data Analysis", exploratory_analysis.app)
-app.add_app("Modelling & Prediction", modelling_prediction.app)
-app.add_app("Conclusions", conclusions.app)
+st.markdown("""
+Welcome to the Air Quality Dashboard! Use the sidebar on the left to navigate through different sections of the analysis.
 
-app.run()
+### Dashboard Sections:
+1. **📊 Data Overview**: High-level summary of the dataset.
+2. **📈 Exploratory Data Analysis**: Visual insights into AQI trends and correlations.
+3. **🤖 Modelling & Prediction**: Predict AQI based on custom pollutant levels.
+4. **💡 Conclusions**: Summary of findings and recommendations.
+
+---
+
+### About the Project
+This application analyzes air quality data from various Indian cities to understand pollution patterns and build a predictive model for Air Quality Index (AQI).
+""")
+
+st.info("👈 Select a page from the sidebar to get started!")
